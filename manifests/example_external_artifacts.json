@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "artifacts": [
+    {
+      "artifact_id": "fixture",
+      "role": "test_fixture",
+      "uri": "fixtures/example.txt",
+      "sha256": "3ad08644ab5aa81626a4c41c253a82da9a7cd9843f74486b8b492dff8e8ab690",
+      "size_bytes": 13,
+      "license": "CC0-1.0"
+    }
+  ]
+}

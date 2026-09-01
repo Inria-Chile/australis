@@ -1,0 +1,47 @@
+benchmark: pfam_single_label_open_set_v1
+representation: esm2
+
+runtime:
+  required_gpus: 2
+  minimum_vram_gib_per_gpu: 80
+  maximum_peak_vram_gib_per_process: 60
+  minimum_vram_headroom_fraction: 0.20
+  mixed_precision: bf16
+  deterministic: true
+
+model:
+  architecture: mlp
+  input_dimension: 1280
+  hidden_dimensions: [1024, 512]
+  dropout: 0.20
+  classifier_target: single_pfam
+  distributed_strategy: ddp
+
+training:
+  batch_size_per_gpu_probe: 256
+  maximum_batch_size_per_gpu: 2048
+  gradient_accumulation_steps: 1
+  maximum_epochs: 100
+  early_stopping_patience: 10
+  selection_metric: validation_id_macro_f1
+  seeds: [1, 7, 21, 42, 84]
+
+detectors:
+  posthoc:
+    - msp
+    - maxlogit
+    - energy
+    - mahalanobis
+    - relative_mahalanobis
+    - vim
+    - openmax
+  nearest_neighbor:
+    backend: faiss_gpu_index_flat_ip
+    distribution: replicate
+    require_cpu_gpu_agreement: true
+
+calibration:
+  backend: puncc
+  methods: [lac, aps, raps]
+  audit_exchangeability: true
+

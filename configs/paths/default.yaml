@@ -1,0 +1,6 @@
+# Environment variables may point to Grid'5000, a workstation or another HPC system.
+data_root: ${oc.env:POLARFUNC_DATA_ROOT,./data}
+artifact_root: ${oc.env:POLARFUNC_ARTIFACT_ROOT,./artifacts}
+output_root: ${oc.env:POLARFUNC_OUTPUT_ROOT,./runs}
+model_cache: ${oc.env:POLARFUNC_MODEL_CACHE,./model_cache}
+

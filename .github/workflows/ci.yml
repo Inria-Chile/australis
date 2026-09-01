@@ -1,0 +1,40 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  cpu-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: uv sync --locked --extra data --extra ml --extra dev
+      - run: uv run ruff check .
+      - run: uv run pytest -q
+      - run: uv build
+      - name: Audit release archives
+        run: |
+          wheel=$(find dist -maxdepth 1 -name '*.whl' -print -quit)
+          sdist=$(find dist -maxdepth 1 -name '*.tar.gz' -print -quit)
+          uv run python scripts/check_release_readiness.py \
+            --root . --archive "$wheel" --archive "$sdist" \
+            --output release_readiness.json
+      - name: Smoke-test the built wheel
+        run: |
+          uv venv .release-venv --python "${{ matrix.python-version }}"
+          wheel=$(find dist -maxdepth 1 -name '*.whl' -print -quit)
+          uv pip install --python .release-venv/bin/python "$wheel"
+          .release-venv/bin/polarfunc --help
+      - uses: actions/upload-artifact@v4
+        with:
+          name: polarfunc-repro-${{ matrix.python-version }}
+          path: |
+            dist/*
+            release_readiness.json

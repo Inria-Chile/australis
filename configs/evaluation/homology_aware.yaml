@@ -1,0 +1,17 @@
+split:
+  unit: mmseqs_group
+  partitions: [train, validation, test]
+  immutable: true
+tasks: [known_FL, unknown_FL, transfer_FL, known_ATT, unknown_ATT, transfer_ATT]
+metrics: [AUROC, AUPRC, MCC, balanced_accuracy, Brier]
+bootstrap:
+  unit: mmseqs_group
+  replicates: 2000
+  confidence: 0.95
+calibration:
+  fit_scope: validation
+  report: [Brier, expected_calibration_error]
+claims:
+  causal: false
+  unknown_outputs: ranked_hypotheses_not_annotations
+

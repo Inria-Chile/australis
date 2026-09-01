@@ -1,0 +1,18 @@
+models:
+  classical:
+    - length_gc
+    - codon_67
+    - mmseqs_nearest_neighbor
+  genomic:
+    name: genomeocean
+    revision: ${oc.env:POLARFUNC_GENOMEOCEAN_REVISION,unresolved}
+    pooling: mean
+  protein:
+    name: facebook/esm2_t33_650M_UR50D
+    revision: ${oc.env:POLARFUNC_ESM2_REVISION,unresolved}
+    pooling: attention_mask_mean_last_hidden_state
+  structure:
+    name: esm3_sm_open_v1
+    revision: ${oc.env:POLARFUNC_ESM3_REVISION,unresolved}
+    policy: interpretation_only_after_gate
+

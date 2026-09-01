@@ -1,0 +1,16 @@
+defaults:
+  - paths: default
+  - data: ace
+  - pipeline: full
+  - representations: baseline
+  - evaluation: homology_aware
+  - _self_
+
+project:
+  name: polarfunc-repro
+  seed: 42
+  deterministic: true
+
+run:
+  name: ${now:%Y%m%dT%H%M%S}_polarfunc
+

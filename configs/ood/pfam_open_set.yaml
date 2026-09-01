@@ -1,0 +1,60 @@
+benchmark_name: pfam_single_label_open_set_v1
+label_source: PFAMs
+label_policy: exactly_one_pfam
+known_policy: strict_known_only
+
+class_holdout:
+  min_class_size: 20
+  id_class_fraction: 0.70
+  validation_ood_class_fraction: 0.15
+  test_ood_class_fraction: 0.15
+  seed: ${project.seed}
+
+id_sample_split:
+  unit: MMseqs_group
+  train_fraction: 0.70
+  calibration_fraction: 0.15
+  test_fraction: 0.15
+
+representations:
+  initial:
+    - genomeocean
+  production:
+    - genomeocean
+    - esm2
+    - dna_protein_fusion
+    - esm3_sequence
+    - esm3_structure_interpretation_only
+
+cpu_pilot:
+  pca_components: 64
+  knn_k: 10
+  detectors:
+    - msp
+    - maxlogit
+    - energy
+    - mahalanobis_diag
+    - relative_mahalanobis_diag
+    - prototype_cosine
+    - exact_cosine_knn
+
+evaluation:
+  score_convention: higher_is_more_ood
+  threshold_selection: validation_ood_youden_j
+  metrics:
+    - auroc
+    - aupr_ood
+    - fpr_at_95_tpr
+    - id_accuracy
+    - id_macro_f1
+    - ood_false_accept_rate
+    - id_false_reject_rate
+
+scientific_gates:
+  no_function_class_overlap: true
+  no_mmseqs_group_overlap: true
+  independent_validation_ood_classes: true
+  independent_test_ood_classes: true
+  near_far_ood_requires_external_hierarchy: true
+  conformal_claims_require_exchangeability_audit: true
+

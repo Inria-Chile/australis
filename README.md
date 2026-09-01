@@ -1,0 +1,141 @@
+# POLAR-FUNC Reproducible Workflows
+
+`polarfunc-repro` is the public-code layer for studying Antarctic microbial functional dark matter with genomic, protein, structural and ecological representations. Large catalogs, embeddings and model weights remain external artifacts referenced by checksummed manifests.
+
+## Design principles
+
+- no machine-specific absolute paths;
+- Hydra configuration for every scientific stage;
+- `uv.lock` for a reproducible Python environment;
+- immutable identifiers, splits and manifests;
+- train-only fitting and remote-homology-aware evaluation;
+- explicit distinction between association, prediction and functional hypothesis;
+- external storage for large data and model artifacts;
+- provenance, checksums, seeds and resolved configuration for every run.
+
+## Quick start
+
+```bash
+uv sync --extra dev
+uv run pytest -q
+uv run polarfunc compose
+uv run polarfunc plan
+uv run polarfunc verify-manifest manifests/example_external_artifacts.json
+```
+
+Install the data and CPU-model dependencies when running scientific stages:
+
+```bash
+uv sync --locked --extra data --extra ml --extra dev
+```
+
+Override storage roots without editing code:
+
+```bash
+export POLARFUNC_DATA_ROOT=/path/to/data
+export POLARFUNC_ARTIFACT_ROOT=/path/to/artifacts
+export POLARFUNC_OUTPUT_ROOT=/path/to/runs
+uv run polarfunc plan paths.data_root="$POLARFUNC_DATA_ROOT"
+```
+
+Version `0.1.0` is a validated public-code release candidate. It implements data ingestion,
+bounded-memory registry construction, deterministic sharding, provenance, representation and
+package validation, a leakage-aware functional OOD pilot, reporting and release audits. Scientific
+stages are migrated incrementally from the audited internal project according to
+`docs/IMPLEMENTATION_PLAN.md`; the repository never claims that historical artifacts were
+recomputed unless their stage is marked `implemented` in `configs/pipeline/full.yaml`.
+
+## Verified production snapshot
+
+The 2026-09-01 Grid'5000 release gate established:
+
+- 14/14 ACE Zenodo artifacts passed source checksums;
+- a canonical registry of 89,739,060 unigenes across 36 Parquet parts;
+- 91,663 matched GenomeOcean sequence embeddings;
+- 91,663 matched ESM3 sequence-only and 91,663 structure-conditioned embeddings;
+- 366,652 validated structural-package members across 256 archives;
+- 91,663 unique PDB records distributed deterministically over 256 buckets;
+- Ruff, 41 CPU contract tests, wheel/sdist policy and release checksums all passed.
+
+These cardinalities describe validated external artifacts, not files committed to Git. See
+`reports/CPU_GPU_HANDOFF_20260901.md` and `docs/INACH_REPRODUCIBILITY_EVIDENCE.md`.
+
+## Reproducible data ingestion
+
+Create a checksummed manifest directly from Zenodo, download atomically and inventory the files without loading complete catalogs into memory:
+
+```bash
+uv run polarfunc zenodo-manifest 14181291 --output manifests/ace_external_artifacts.json
+uv run polarfunc download manifests/ace_external_artifacts.json --destination "$POLARFUNC_DATA_ROOT"
+uv run polarfunc inventory "$POLARFUNC_DATA_ROOT"/*.gz --output "$POLARFUNC_OUTPUT_ROOT/raw_inventory.json"
+```
+
+The unigene registry is generated from the 175-million-row ORF annotation table in bounded chunks:
+
+```bash
+uv run python scripts/build_unigene_master.py \
+  --input "$POLARFUNC_DATA_ROOT/Annotation_Table_AGN_CDH_Tax_KEGG_EGG.tsv.gz" \
+  --output-dir "$POLARFUNC_ARTIFACT_ROOT/master/unigene_master" \
+  --summary "$POLARFUNC_OUTPUT_ROOT/unigene_master_summary.json"
+```
+
+See `docs/REPRODUCTION.md` for the clean-room procedure and `docs/STORAGE_LAYOUT.md` for the sharding policy.
+
+## CPU validation of frozen representations
+
+Compact embedding shards are accepted only when their manifest has unique IDs, contiguous
+row mappings, the declared dimension and dtype, finite values, and exact coverage of a frozen
+reference universe:
+
+```bash
+uv run python scripts/validate_embedding_manifest.py "$ESM3_SEQUENCE_INDEX" \
+  --id-column CDHit_ID \
+  --shard-path-column sequence_shard_path \
+  --reference-manifest "$STRUCTURE_COMMON_MANIFEST" \
+  --reference-id-column CDHit_ID \
+  --expected-dimension 1536 \
+  --expected-model esm3_sm_open_v1 \
+  --checksums \
+  --output "$POLARFUNC_OUTPUT_ROOT/esm3_sequence_validation.json"
+```
+
+Deterministic structural packages are independently checked for complete artifact kinds,
+reference-universe coverage, safe and exact tar membership, and archive hashes:
+
+```bash
+uv run python scripts/validate_package_index.py "$STRUCTURE_PACKAGE_INDEX" \
+  --reference-manifest "$STRUCTURE_COMMON_MANIFEST" \
+  --expected-kind pdb --expected-kind sequence \
+  --expected-kind structure --expected-kind metadata \
+  --archive-checksums \
+  --output "$POLARFUNC_OUTPUT_ROOT/structure_package_validation.json"
+```
+
+## Functional open-set pilot
+
+The complementary OOD branch freezes complete Pfam families as validation/test OOD classes while preserving MMseqs groups inside a single sample split. Its first CPU probe uses single-Pfam strict-known genes and frozen GenomeOcean embeddings:
+
+```bash
+uv sync --extra data --extra ml --extra dev
+uv run python scripts/run_functional_ood_pilot.py \
+  --annotations "$POLARFUNC_ARTIFACT_ROOT/neurips/common_function_annotations.parquet" \
+  --split-manifest "$POLARFUNC_DATA_ROOT/split_manifest_v1.parquet" \
+  --embedding-dir "$POLARFUNC_ARTIFACT_ROOT/embeddings/genomeocean/common_91663" \
+  --output-dir "$POLARFUNC_OUTPUT_ROOT/pfam_open_set_probe"
+```
+
+The benchmark contract lives in `configs/ood/pfam_open_set.yaml`. PyTorch-OOD, FAISS-GPU and PUNCC remain replaceable backends; no library is allowed to redefine the frozen class or homology partitions.
+
+## Repository layout
+
+```text
+configs/                 Hydra composition
+docs/                    architecture, migration and release evidence
+manifests/               small checksummed metadata only
+src/polarfunc_repro/     reusable implementation
+tests/                   CPU-fast contract tests
+```
+
+## Data and claims
+
+The principal public source is the ACE/Southern Ocean Reference Gene Catalogs, Zenodo record `14181291`. See `DATA_LICENSES.md` and `docs/EXTERNAL_ARTIFACTS.md`. Ranked unknown genes are hypotheses for follow-up, not novel functional annotations.

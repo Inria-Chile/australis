@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, cite the archived release and the ACE source study."
+title: "POLAR-FUNC reproducible workflows"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Valenzuela
+    given-names: Luis
+    affiliation: Inria Chile Research Center
+license: Apache-2.0
