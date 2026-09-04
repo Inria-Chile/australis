@@ -1,6 +1,6 @@
 # Reproducibility evidence for the INACH proposal
 
-POLAR-FUNC has a validated public-code release candidate rather than only a prospective software
+AUSTRALIS has a validated public-code release candidate rather than only a prospective software
 plan. The repository uses Hydra configuration, a locked `uv` environment, machine-independent
 runtime paths, immutable manifests, provenance capture, bounded-memory catalog processing,
 deterministic sharding and automated release audits. On 2026-09-01, its Linux/Grid'5000 gate passed

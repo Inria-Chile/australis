@@ -1,6 +1,6 @@
-# POLAR-FUNC Reproducible Workflows
+# AUSTRALIS Reproducible Workflows
 
-`polarfunc-repro` is the public-code layer for studying Antarctic microbial functional dark matter with genomic, protein, structural and ecological representations. Large catalogs, embeddings and model weights remain external artifacts referenced by checksummed manifests.
+`australis` is the public-code layer for studying Antarctic microbial functional dark matter with genomic, protein, structural and ecological representations. Large catalogs, embeddings and model weights remain external artifacts referenced by checksummed manifests.
 
 ## Design principles
 
