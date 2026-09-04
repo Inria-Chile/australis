@@ -37,6 +37,15 @@ ood = [
   "puncc>=0.9.3,<0.10",
   "pytorch-ood>=0.3.2,<0.4",
 ]
+analysis = [
+  "biotite>=1.6,<1.7",
+  "duckdb>=1,<2",
+  "joblib>=1.4,<2",
+  "matplotlib>=3.9,<4",
+  "statsmodels>=0.14,<1",
+  "esm>=3,<4",
+  "peft>=0.13,<1",
+]
 dev = [
   "pytest>=8,<9",
   "ruff>=0.8,<1",
@@ -59,4 +68,4 @@ addopts = "-ra"
 [tool.ruff]
 line-length = 100
 target-version = "py311"
-extend-exclude = ["._*", "launch_plans", "preflight_inputs", "probes", "runs"]
+extend-exclude = ["._*", "launch_plans", "preflight_inputs", "probes", "runs", "src/polarfunc", "scripts"]

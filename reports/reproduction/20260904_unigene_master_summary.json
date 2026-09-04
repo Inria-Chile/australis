@@ -1,0 +1,887 @@
+{
+  "input_rows": 175336776,
+  "representative_rows": 89739060,
+  "parts": [
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00000.parquet",
+      "rows": 501438,
+      "size_bytes": 17913362
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00001.parquet",
+      "rows": 513579,
+      "size_bytes": 18265663
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00002.parquet",
+      "rows": 511452,
+      "size_bytes": 18271268
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00003.parquet",
+      "rows": 513478,
+      "size_bytes": 18357493
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00004.parquet",
+      "rows": 508407,
+      "size_bytes": 18121306
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00005.parquet",
+      "rows": 520317,
+      "size_bytes": 18436767
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00006.parquet",
+      "rows": 525592,
+      "size_bytes": 18686585
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00007.parquet",
+      "rows": 514943,
+      "size_bytes": 18414020
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00008.parquet",
+      "rows": 505390,
+      "size_bytes": 17919329
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00009.parquet",
+      "rows": 523119,
+      "size_bytes": 18572319
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00010.parquet",
+      "rows": 530246,
+      "size_bytes": 18853949
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00011.parquet",
+      "rows": 508181,
+      "size_bytes": 18052259
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00012.parquet",
+      "rows": 508802,
+      "size_bytes": 18124601
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00013.parquet",
+      "rows": 485359,
+      "size_bytes": 17266819
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00014.parquet",
+      "rows": 508341,
+      "size_bytes": 18061203
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00015.parquet",
+      "rows": 501315,
+      "size_bytes": 17579254
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00016.parquet",
+      "rows": 495802,
+      "size_bytes": 17738743
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00017.parquet",
+      "rows": 523190,
+      "size_bytes": 18492866
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00018.parquet",
+      "rows": 504872,
+      "size_bytes": 17970636
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00019.parquet",
+      "rows": 528949,
+      "size_bytes": 18767201
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00020.parquet",
+      "rows": 509748,
+      "size_bytes": 18151253
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00021.parquet",
+      "rows": 519951,
+      "size_bytes": 18573363
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00022.parquet",
+      "rows": 523532,
+      "size_bytes": 18407296
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00023.parquet",
+      "rows": 512542,
+      "size_bytes": 18193185
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00024.parquet",
+      "rows": 502542,
+      "size_bytes": 18059257
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00025.parquet",
+      "rows": 518628,
+      "size_bytes": 18405364
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00026.parquet",
+      "rows": 513132,
+      "size_bytes": 18044879
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00027.parquet",
+      "rows": 515488,
+      "size_bytes": 18300055
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00028.parquet",
+      "rows": 527041,
+      "size_bytes": 18803353
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00029.parquet",
+      "rows": 508624,
+      "size_bytes": 18079125
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00030.parquet",
+      "rows": 510224,
+      "size_bytes": 18146051
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00031.parquet",
+      "rows": 514675,
+      "size_bytes": 18230047
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00032.parquet",
+      "rows": 518395,
+      "size_bytes": 18370742
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00033.parquet",
+      "rows": 502487,
+      "size_bytes": 17864448
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00034.parquet",
+      "rows": 522635,
+      "size_bytes": 18709132
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00035.parquet",
+      "rows": 524877,
+      "size_bytes": 18674201
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00036.parquet",
+      "rows": 512902,
+      "size_bytes": 18285907
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00037.parquet",
+      "rows": 513650,
+      "size_bytes": 18286150
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00038.parquet",
+      "rows": 513900,
+      "size_bytes": 18267738
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00039.parquet",
+      "rows": 525173,
+      "size_bytes": 18627866
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00040.parquet",
+      "rows": 515763,
+      "size_bytes": 18322086
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00041.parquet",
+      "rows": 511406,
+      "size_bytes": 18273845
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00042.parquet",
+      "rows": 511221,
+      "size_bytes": 18217867
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00043.parquet",
+      "rows": 492855,
+      "size_bytes": 17542026
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00044.parquet",
+      "rows": 504617,
+      "size_bytes": 17912823
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00045.parquet",
+      "rows": 510346,
+      "size_bytes": 18316462
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00046.parquet",
+      "rows": 529175,
+      "size_bytes": 18713604
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00047.parquet",
+      "rows": 513190,
+      "size_bytes": 18311492
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00048.parquet",
+      "rows": 487309,
+      "size_bytes": 17420534
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00049.parquet",
+      "rows": 508528,
+      "size_bytes": 18009638
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00050.parquet",
+      "rows": 505501,
+      "size_bytes": 18087165
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00051.parquet",
+      "rows": 510648,
+      "size_bytes": 18151246
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00052.parquet",
+      "rows": 520177,
+      "size_bytes": 18489149
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00053.parquet",
+      "rows": 519494,
+      "size_bytes": 18419200
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00054.parquet",
+      "rows": 513716,
+      "size_bytes": 18257077
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00055.parquet",
+      "rows": 517600,
+      "size_bytes": 18440879
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00056.parquet",
+      "rows": 501233,
+      "size_bytes": 17941365
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00057.parquet",
+      "rows": 520201,
+      "size_bytes": 18388030
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00058.parquet",
+      "rows": 524920,
+      "size_bytes": 18566215
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00059.parquet",
+      "rows": 506195,
+      "size_bytes": 18089507
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00060.parquet",
+      "rows": 502699,
+      "size_bytes": 17959653
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00061.parquet",
+      "rows": 516091,
+      "size_bytes": 18359350
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00062.parquet",
+      "rows": 513046,
+      "size_bytes": 18020365
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00063.parquet",
+      "rows": 501295,
+      "size_bytes": 17934926
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00064.parquet",
+      "rows": 519125,
+      "size_bytes": 18368407
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00065.parquet",
+      "rows": 525309,
+      "size_bytes": 18636745
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00066.parquet",
+      "rows": 516120,
+      "size_bytes": 18242719
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00067.parquet",
+      "rows": 495620,
+      "size_bytes": 17799274
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00068.parquet",
+      "rows": 521763,
+      "size_bytes": 18373544
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00069.parquet",
+      "rows": 515711,
+      "size_bytes": 18271662
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00070.parquet",
+      "rows": 516267,
+      "size_bytes": 18308138
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00071.parquet",
+      "rows": 492883,
+      "size_bytes": 17659801
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00072.parquet",
+      "rows": 513366,
+      "size_bytes": 17856671
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00073.parquet",
+      "rows": 511631,
+      "size_bytes": 18207182
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00074.parquet",
+      "rows": 511944,
+      "size_bytes": 18143870
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00075.parquet",
+      "rows": 518283,
+      "size_bytes": 18448995
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00076.parquet",
+      "rows": 519387,
+      "size_bytes": 18297225
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00077.parquet",
+      "rows": 516139,
+      "size_bytes": 18345266
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00078.parquet",
+      "rows": 488001,
+      "size_bytes": 17491781
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00079.parquet",
+      "rows": 513315,
+      "size_bytes": 18205910
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00080.parquet",
+      "rows": 508392,
+      "size_bytes": 17997232
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00081.parquet",
+      "rows": 518666,
+      "size_bytes": 18389768
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00082.parquet",
+      "rows": 513738,
+      "size_bytes": 18346577
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00083.parquet",
+      "rows": 520311,
+      "size_bytes": 18388373
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00084.parquet",
+      "rows": 508773,
+      "size_bytes": 18168776
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00085.parquet",
+      "rows": 527789,
+      "size_bytes": 18730643
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00086.parquet",
+      "rows": 500540,
+      "size_bytes": 17924744
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00087.parquet",
+      "rows": 506560,
+      "size_bytes": 18043066
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00088.parquet",
+      "rows": 508993,
+      "size_bytes": 18005581
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00089.parquet",
+      "rows": 515353,
+      "size_bytes": 18302012
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00090.parquet",
+      "rows": 512798,
+      "size_bytes": 18146350
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00091.parquet",
+      "rows": 519753,
+      "size_bytes": 18500518
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00092.parquet",
+      "rows": 493217,
+      "size_bytes": 17626343
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00093.parquet",
+      "rows": 502740,
+      "size_bytes": 17935709
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00094.parquet",
+      "rows": 511935,
+      "size_bytes": 18302178
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00095.parquet",
+      "rows": 492336,
+      "size_bytes": 17651326
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00096.parquet",
+      "rows": 506818,
+      "size_bytes": 18127083
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00097.parquet",
+      "rows": 513147,
+      "size_bytes": 18229397
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00098.parquet",
+      "rows": 505637,
+      "size_bytes": 18016951
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00099.parquet",
+      "rows": 515426,
+      "size_bytes": 18220214
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00100.parquet",
+      "rows": 508508,
+      "size_bytes": 18118603
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00101.parquet",
+      "rows": 527133,
+      "size_bytes": 18629282
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00102.parquet",
+      "rows": 522051,
+      "size_bytes": 18450947
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00103.parquet",
+      "rows": 517773,
+      "size_bytes": 18350681
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00104.parquet",
+      "rows": 507287,
+      "size_bytes": 18009344
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00105.parquet",
+      "rows": 524198,
+      "size_bytes": 18530988
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00106.parquet",
+      "rows": 510199,
+      "size_bytes": 18161944
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00107.parquet",
+      "rows": 521840,
+      "size_bytes": 18386152
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00108.parquet",
+      "rows": 489195,
+      "size_bytes": 17155596
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00109.parquet",
+      "rows": 505617,
+      "size_bytes": 18026371
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00110.parquet",
+      "rows": 519971,
+      "size_bytes": 18342788
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00111.parquet",
+      "rows": 518031,
+      "size_bytes": 18237001
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00112.parquet",
+      "rows": 508360,
+      "size_bytes": 17870918
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00113.parquet",
+      "rows": 508340,
+      "size_bytes": 18011266
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00114.parquet",
+      "rows": 517418,
+      "size_bytes": 18513189
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00115.parquet",
+      "rows": 516426,
+      "size_bytes": 18413530
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00116.parquet",
+      "rows": 508875,
+      "size_bytes": 18014083
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00117.parquet",
+      "rows": 528698,
+      "size_bytes": 18679543
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00118.parquet",
+      "rows": 499472,
+      "size_bytes": 17667869
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00119.parquet",
+      "rows": 510989,
+      "size_bytes": 18103467
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00120.parquet",
+      "rows": 501100,
+      "size_bytes": 17911296
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00121.parquet",
+      "rows": 512286,
+      "size_bytes": 18176266
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00122.parquet",
+      "rows": 516762,
+      "size_bytes": 18289732
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00123.parquet",
+      "rows": 523100,
+      "size_bytes": 18682782
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00124.parquet",
+      "rows": 509078,
+      "size_bytes": 17931129
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00125.parquet",
+      "rows": 514515,
+      "size_bytes": 18202540
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00126.parquet",
+      "rows": 505745,
+      "size_bytes": 18010923
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00127.parquet",
+      "rows": 507710,
+      "size_bytes": 18091104
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00128.parquet",
+      "rows": 514288,
+      "size_bytes": 18371628
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00129.parquet",
+      "rows": 516150,
+      "size_bytes": 18255918
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00130.parquet",
+      "rows": 516735,
+      "size_bytes": 18507503
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00131.parquet",
+      "rows": 520639,
+      "size_bytes": 18369565
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00132.parquet",
+      "rows": 506477,
+      "size_bytes": 17905304
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00133.parquet",
+      "rows": 516221,
+      "size_bytes": 18189174
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00134.parquet",
+      "rows": 512822,
+      "size_bytes": 18021556
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00135.parquet",
+      "rows": 512198,
+      "size_bytes": 18244090
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00136.parquet",
+      "rows": 511441,
+      "size_bytes": 18192420
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00137.parquet",
+      "rows": 505796,
+      "size_bytes": 17956184
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00138.parquet",
+      "rows": 510308,
+      "size_bytes": 17907631
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00139.parquet",
+      "rows": 521028,
+      "size_bytes": 18488171
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00140.parquet",
+      "rows": 513061,
+      "size_bytes": 18272794
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00141.parquet",
+      "rows": 503845,
+      "size_bytes": 17981638
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00142.parquet",
+      "rows": 527785,
+      "size_bytes": 18664909
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00143.parquet",
+      "rows": 517337,
+      "size_bytes": 18287408
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00144.parquet",
+      "rows": 506722,
+      "size_bytes": 17976396
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00145.parquet",
+      "rows": 509316,
+      "size_bytes": 18093810
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00146.parquet",
+      "rows": 516168,
+      "size_bytes": 18221906
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00147.parquet",
+      "rows": 515560,
+      "size_bytes": 18364328
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00148.parquet",
+      "rows": 515250,
+      "size_bytes": 18289310
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00149.parquet",
+      "rows": 489691,
+      "size_bytes": 17498970
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00150.parquet",
+      "rows": 494186,
+      "size_bytes": 17700803
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00151.parquet",
+      "rows": 495168,
+      "size_bytes": 17479984
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00152.parquet",
+      "rows": 508381,
+      "size_bytes": 17925929
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00153.parquet",
+      "rows": 499973,
+      "size_bytes": 17762959
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00154.parquet",
+      "rows": 512383,
+      "size_bytes": 18176628
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00155.parquet",
+      "rows": 503911,
+      "size_bytes": 17865002
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00156.parquet",
+      "rows": 509309,
+      "size_bytes": 18057642
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00157.parquet",
+      "rows": 536204,
+      "size_bytes": 18960581
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00158.parquet",
+      "rows": 502750,
+      "size_bytes": 18022358
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00159.parquet",
+      "rows": 509948,
+      "size_bytes": 18201932
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00160.parquet",
+      "rows": 515845,
+      "size_bytes": 18297849
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00161.parquet",
+      "rows": 519630,
+      "size_bytes": 18378771
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00162.parquet",
+      "rows": 511164,
+      "size_bytes": 18062652
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00163.parquet",
+      "rows": 508619,
+      "size_bytes": 18104287
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00164.parquet",
+      "rows": 501405,
+      "size_bytes": 17847678
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00165.parquet",
+      "rows": 510475,
+      "size_bytes": 18120908
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00166.parquet",
+      "rows": 489214,
+      "size_bytes": 17497748
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00167.parquet",
+      "rows": 518118,
+      "size_bytes": 18320574
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00168.parquet",
+      "rows": 528585,
+      "size_bytes": 18770477
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00169.parquet",
+      "rows": 512421,
+      "size_bytes": 18317340
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00170.parquet",
+      "rows": 503853,
+      "size_bytes": 18022067
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00171.parquet",
+      "rows": 500719,
+      "size_bytes": 17569043
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00172.parquet",
+      "rows": 531343,
+      "size_bytes": 18708560
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00173.parquet",
+      "rows": 493185,
+      "size_bytes": 17522577
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00174.parquet",
+      "rows": 502222,
+      "size_bytes": 18048382
+    },
+    {
+      "path": "EXTERNAL_ROOT/lvalenzuela/shared_storage/lvalenzuela_omics_SR/australis-reproduction-artifacts-20260904/unigene_master/part-00175.parquet",
+      "rows": 182604,
+      "size_bytes": 6887296
+    }
+  ],
+  "elapsed_seconds": 1337.512948098003
+}

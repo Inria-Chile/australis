@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "models": [
+    {
+      "model_id": "esm2_t33_650M_UR50D",
+      "source_uri": "https://huggingface.co/facebook/esm2_t33_650M_UR50D",
+      "revision": "08e4846e537177426273712802403f7ba8261b6c",
+      "license": "MIT",
+      "input": "protein sequence",
+      "artifact_policy": "external_model_cache"
+    },
+    {
+      "model_id": "esm3_sm_open_v1",
+      "source_uri": "https://huggingface.co/biohub/esm3-sm-open-v1",
+      "code_uri": "https://github.com/Biohub/esm/blob/main/LICENSE.md",
+      "revision": "47f0545b2b6daf26a93439a3cd610f4f7f3d5478",
+      "license": "verify_live_model_card_before_use",
+      "input": "sequence and structure-conditioned payloads",
+      "artifact_policy": "external_model_cache"
+    },
+    {
+      "model_id": "GenomeOcean-500M",
+      "source_uri": "https://huggingface.co/DOEJGI/GenomeOcean-500M",
+      "revision": "0d9f453925aca9c278505cf0103b6b4311092052",
+      "license": "BSD-like; preserve upstream notice",
+      "input": "metagenomic DNA context",
+      "artifact_policy": "external_model_cache"
+    }
+  ],
+  "derived_artifact_policy": {
+    "embeddings": "external_checksum_manifest_required",
+    "structures": "external_checksum_manifest_required",
+    "benchmark_outputs": "regenerate_or_archive_with_provenance",
+    "credentials": "never_commit"
+  }
+}

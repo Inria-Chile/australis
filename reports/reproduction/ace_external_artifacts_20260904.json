@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "artifacts": [
+    {
+      "artifact_id": "ACE_Unigenes_catalog.fa.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/ACE_Unigenes_catalog.fa.gz/content",
+      "md5": "a350003f2d498271d2643871c511b51b",
+      "sha256": null,
+      "size_bytes": 16776557865,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "ACEsamples_CorrespondanceTable.xlsx",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/ACEsamples_CorrespondanceTable.xlsx/content",
+      "md5": "26e98f83e673ea274d207066cd67403a",
+      "sha256": null,
+      "size_bytes": 26438,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "AGNOSTOS_CLSTRLVL_GENE_MAT_COV.tsv.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/AGNOSTOS_CLSTRLVL_GENE_MAT_COV.tsv.gz/content",
+      "md5": "9a28b319bc150d7a527850d67671dc84",
+      "sha256": null,
+      "size_bytes": 3903706507,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "AGNOSTOS_CLSTRLVL_GENE_MAT_DET_Maximum.tsv.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/AGNOSTOS_CLSTRLVL_GENE_MAT_DET_Maximum.tsv.gz/content",
+      "md5": "a3944e10e5c36b5a136a59764922a47c",
+      "sha256": null,
+      "size_bytes": 3438083727,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "Annotation_Table_AGN_CDH_Tax_KEGG_EGG.tsv.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/Annotation_Table_AGN_CDH_Tax_KEGG_EGG.tsv.gz/content",
+      "md5": "30fa797a29d907af6ef9cdad14739162",
+      "sha256": null,
+      "size_bytes": 4389569506,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "DMSP_Lyase.tar.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/DMSP_Lyase.tar.gz/content",
+      "md5": "ba3a9d366aa1d2900923d2c44fb2a1fe",
+      "sha256": null,
+      "size_bytes": 89652,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "EnrichmentPolar_CDHitLevel_EggNogDesc.tsv.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/EnrichmentPolar_CDHitLevel_EggNogDesc.tsv.gz/content",
+      "md5": "d5fa2fee5e82e58e71366a8195883fec",
+      "sha256": null,
+      "size_bytes": 686021,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "Polar_Genes.fa.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/Polar_Genes.fa.gz/content",
+      "md5": "99abd7a41cc4dd575768e53ca6e94448",
+      "sha256": null,
+      "size_bytes": 5439681696,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "RF_AGC_NZVuniquecut20_T60MAX_ATT_All.txt.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/RF_AGC_NZVuniquecut20_T60MAX_ATT_All.txt.gz/content",
+      "md5": "545e2eb8e79c543160af744521c10847",
+      "sha256": null,
+      "size_bytes": 1098825552,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "RF_AGC_NZVuniquecut20_T60MAX_FL_All.txt.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/RF_AGC_NZVuniquecut20_T60MAX_FL_All.txt.gz/content",
+      "md5": "8457a15d05b6001305386b8c42f0ca0e",
+      "sha256": null,
+      "size_bytes": 873959587,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "SO-RGC.fa.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/SO-RGC.fa.gz/content",
+      "md5": "e3d81ae9fdbdb2fd084d71cc2ad3a0fe",
+      "sha256": null,
+      "size_bytes": 12436043927,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "contig_GTDBlineage_kraken.tsv.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/contig_GTDBlineage_kraken.tsv.gz/content",
+      "md5": "dfa7a1b598448902fdffe7a93cb7d268",
+      "sha256": null,
+      "size_bytes": 915745805,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "contigs_mimiviridae.xlsx",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/contigs_mimiviridae.xlsx/content",
+      "md5": "7ed3db2b7ec3b2611710901aa161f133",
+      "sha256": null,
+      "size_bytes": 1170344,
+      "license": "cc-by-4.0"
+    },
+    {
+      "artifact_id": "contigs_virus_genomadannot.tsv.gz",
+      "role": "zenodo:14181291",
+      "uri": "https://zenodo.org/api/records/14181291/files/contigs_virus_genomadannot.tsv.gz/content",
+      "md5": "27e98157dcf8898ca29d032af2a377e9",
+      "sha256": null,
+      "size_bytes": 14403879,
+      "license": "cc-by-4.0"
+    }
+  ]
+}

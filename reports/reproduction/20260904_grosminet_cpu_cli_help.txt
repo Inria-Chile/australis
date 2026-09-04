@@ -1,0 +1,9 @@
+usage: polarfunc [-h]
+                 {compose,plan,preflight,verify-manifest,summarize-reports,zenodo-manifest,download,inventory,bucket-index}
+                 ...
+
+positional arguments:
+  {compose,plan,preflight,verify-manifest,summarize-reports,zenodo-manifest,download,inventory,bucket-index}
+
+options:
+  -h, --help            show this help message and exit

@@ -7,7 +7,7 @@ The public repository contains code, configurations, schemas, tests and small fi
 ## CPU reproduction
 
 1. Install `uv` and clone the repository into an empty directory.
-2. Run `uv sync --locked --extra data --extra ml --extra dev`.
+2. Run `uv sync --locked --extra data --extra ml --extra gpu --extra dev`.
 3. Run `uv run ruff check .` and `uv run pytest -q`.
 4. Export `POLARFUNC_DATA_ROOT`, `POLARFUNC_ARTIFACT_ROOT` and `POLARFUNC_OUTPUT_ROOT` to writable locations outside the checkout.
 5. Create `manifests/ace_external_artifacts.json` with `polarfunc zenodo-manifest`.

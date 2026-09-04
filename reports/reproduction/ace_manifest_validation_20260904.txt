@@ -1,0 +1,117 @@
+{
+  "status": "FAIL",
+  "records": [
+    {
+      "artifact_id": "ACE_Unigenes_catalog.fa.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/ACE_Unigenes_catalog.fa.gz"
+    },
+    {
+      "artifact_id": "ACEsamples_CorrespondanceTable.xlsx",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/ACEsamples_CorrespondanceTable.xlsx"
+    },
+    {
+      "artifact_id": "AGNOSTOS_CLSTRLVL_GENE_MAT_COV.tsv.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/AGNOSTOS_CLSTRLVL_GENE_MAT_COV.tsv.gz"
+    },
+    {
+      "artifact_id": "AGNOSTOS_CLSTRLVL_GENE_MAT_DET_Maximum.tsv.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/AGNOSTOS_CLSTRLVL_GENE_MAT_DET_Maximum.tsv.gz"
+    },
+    {
+      "artifact_id": "Annotation_Table_AGN_CDH_Tax_KEGG_EGG.tsv.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/Annotation_Table_AGN_CDH_Tax_KEGG_EGG.tsv.gz"
+    },
+    {
+      "artifact_id": "DMSP_Lyase.tar.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/DMSP_Lyase.tar.gz"
+    },
+    {
+      "artifact_id": "EnrichmentPolar_CDHitLevel_EggNogDesc.tsv.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/EnrichmentPolar_CDHitLevel_EggNogDesc.tsv.gz"
+    },
+    {
+      "artifact_id": "Polar_Genes.fa.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/Polar_Genes.fa.gz"
+    },
+    {
+      "artifact_id": "RF_AGC_NZVuniquecut20_T60MAX_ATT_All.txt.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/RF_AGC_NZVuniquecut20_T60MAX_ATT_All.txt.gz"
+    },
+    {
+      "artifact_id": "RF_AGC_NZVuniquecut20_T60MAX_FL_All.txt.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/RF_AGC_NZVuniquecut20_T60MAX_FL_All.txt.gz"
+    },
+    {
+      "artifact_id": "SO-RGC.fa.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/SO-RGC.fa.gz"
+    },
+    {
+      "artifact_id": "contig_GTDBlineage_kraken.tsv.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/contig_GTDBlineage_kraken.tsv.gz"
+    },
+    {
+      "artifact_id": "contigs_mimiviridae.xlsx",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/contigs_mimiviridae.xlsx"
+    },
+    {
+      "artifact_id": "contigs_virus_genomadannot.tsv.gz",
+      "exists": false,
+      "size_ok": false,
+      "hash_ok": false,
+      "md5_ok": false,
+      "path": "reports/reproduction/contigs_virus_genomadannot.tsv.gz"
+    }
+  ]
+}

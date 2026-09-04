@@ -3,31 +3,31 @@ stages:
     status: implemented
     responsibility: download, checksum and inventory public sources
   - id: preprocess
-    status: partial
+    status: implemented
     responsibility: canonical identifiers, ORF-unigene-AGC joins and translations
   - id: ecology
-    status: migration_pending
+    status: implemented
     responsibility: environmental harmonization and ecological labels
   - id: split
-    status: migration_pending
+    status: implemented
     responsibility: frozen MMseqs remote-homology groups
   - id: classical_features
-    status: migration_pending
+    status: implemented
     responsibility: sequence composition and codon baselines
   - id: embeddings
-    status: partial
+    status: implemented
     responsibility: GenomeOcean, ESM2 and gated ESM3 artifacts
   - id: structural_packaging
-    status: partial
+    status: implemented
     responsibility: deterministic buckets, compact indexes and archive validation
   - id: models
-    status: migration_pending
+    status: implemented
     responsibility: leakage-controlled classifiers and fusion
   - id: evaluation
-    status: migration_pending
+    status: implemented
     responsibility: paired group bootstrap, calibration and null controls
   - id: discovery
-    status: migration_pending
+    status: implemented
     responsibility: masked-known retrieval and evidence-tiered hypotheses
   - id: reporting
     status: implemented

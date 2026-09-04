@@ -14,8 +14,10 @@ Before making the repository public:
    derived embeddings, predicted structures, and benchmark outputs.
 3. Confirm the final author list, affiliations, citation metadata, and Zenodo
    community or collection.
-4. Create a private GitHub repository and run the full CI workflow from a clean
-   clone before changing its visibility.
+4. Create a private GitHub repository and run the CI workflow from a clean clone
+   before changing its visibility. CI validates the portable code layer and
+   fixtures; production-scale reruns remain a separate gated workflow requiring
+   external data and model access.
 
 ## First push
 
@@ -23,7 +25,7 @@ Create an empty repository in the Inria-Chile organization, without generating
 README, license, or gitignore files. Then run:
 
 ```bash
-git remote add origin git@github.com:Inria-Chile/polarfunc-repro.git
+git remote add origin git@github.com:Inria-Chile/australis.git
 git push -u origin main
 git push origin v0.1.0-rc1
 ```
